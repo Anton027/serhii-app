@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Anton027/serhii-app/static/css/main.7acaea2f.css",
+    "main.js": "/Anton027/serhii-app/static/js/main.07d3183d.js",
+    "index.html": "/Anton027/serhii-app/index.html",
+    "main.7acaea2f.css.map": "/Anton027/serhii-app/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/Anton027/serhii-app/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
