@@ -1,14 +1,17 @@
-import { FooterSect } from "./Footer.styled"
+import { Container } from "components/Container.styled";
+import { FooterSect, Wrapper, LogoLink, WrapAddres,NetworksList,NetworkTitle } from "./Footer.styled"
+import { BsInstagram,BsFacebook,BsTelegram,BsLinkedin } from 'react-icons/bs';
 export const Footer = () => {
     return (
         <>
-            <FooterSect class="footer">
-                <div class="container footer__main">
-                    <div class="footer__wrapper">
-                        <div class="footer__address">
-                            <a class="logo footer__logo" lang="en" href="@">
-                                <span class="logo__part" lang="en">Portfolio</span>_Serhii
-                            </a>
+            <FooterSect>
+                <Container>
+    
+                    <Wrapper>
+                        <WrapAddres>
+                            <LogoLink href="https://www.google.com">
+                                Logo
+                            </LogoLink>
                             <address class="address">
                                 <ul class="address-list list">
                                     <li class="address-item">
@@ -30,44 +33,37 @@ export const Footer = () => {
                                     </li>
                                 </ul>
                             </address>
-                        </div>
+                        </WrapAddres>
                         <div class="join">
-                            <p class="join__text">
-                                Join to me
-                            </p>
-                            <ul class="social-network">
+                            <NetworkTitle class="join__text">
+                                Join to us
+                            </NetworkTitle>
+                            <NetworksList class="social-network">
                                 <li class="social-network__item">
-                                    <a href="https://www.instagram.com/" class="social-network__link join__link">
-                                        <svg class="social-network__icon" width="20" height="20">
-                                            <use href="./images/svg/sprite.svg#instagram"></use>
-                                        </svg>
+                                    <a href="https://www.instagram.com/" className="social-network__link join__link">
+                                        <BsInstagram size={26}/>
                                     </a>
                                 </li>
                                 <li class="social-network__item">
-                                    <a href="https://www.twitter.com/" class="social-network__link join__link">
-                                        <svg class="social-network__icon" width="20" height="20">
-                                            <use href="./images/svg/sprite.svg#twitter"></use>
-                                        </svg>
+                                    <a href="https://www.telegram.com/" className="social-network__link join__link">
+                                        <BsTelegram size={26}/>
                                     </a>
                                 </li>
                                 <li class="social-network__item">
-                                    <a href="https://www.facebook.com/" class="social-network__link join__link">
-                                        <svg class="social-network__icon" width="20" height="20">
-                                            <use href="./images/svg/sprite.svg#facebook"></use>
-                                        </svg>
+                                    <a href="https://www.facebook.com/" className="social-network__link join__link">
+                                        <BsFacebook size={26} />
                                     </a>
                                 </li>
                                 <li class="social-network__item">
-                                    <a href="https://www.linkedin.com/" class="social-network__link join__link">
-                                        <svg class="social-network__icon" width="20" height="20">
-                                            <use href="./images/svg/sprite.svg#linkedin"></use>
-                                        </svg>
+                                    <a href="https://www.linkedin.com/" className="social-network__link join__link">
+                                        <BsLinkedin size={26}/>
                                     </a>
                                 </li>
-                            </ul>
+                            </NetworksList>
                         </div>
-                    </div>
-                </div>
+                    </Wrapper>
+                    
+                </Container>
             </FooterSect>
         </>
     )
