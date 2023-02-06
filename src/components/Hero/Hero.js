@@ -1,5 +1,5 @@
 import { HeroSection,HeroWrap,Title } from "./Hero.styled";
-import { Container } from "components/Container.styled";
+import { Container } from "components/Container";
 export const Hero = () => {
     return (
         <>

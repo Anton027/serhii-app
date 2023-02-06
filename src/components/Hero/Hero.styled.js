@@ -1,11 +1,10 @@
 import styled from '@emotion/styled';
-import image from '../../images/Slide.png'
+
 
 export const HeroSection = styled.section`
     margin-bottom: 30px;
 `
 export const HeroWrap = styled.div`
-    background-image: url(${image});
     min-height: 300px;
     min-width: 320px;
     text-align: center;

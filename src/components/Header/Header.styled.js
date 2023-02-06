@@ -15,8 +15,6 @@ export const Head = styled.header`
     @media (min-width: 1240px){
         padding: 40px;
     }
-
-    background-color: azure;
 `;
 
 export const Nav = styled.nav`

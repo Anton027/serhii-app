@@ -1,5 +1,5 @@
 import { CatalogSect,Video,List,Title,ButtonList } from "./CatalogList.styled"
-import { Container } from "components/Container.styled";
+import { Container } from "components/Container";
 export const CatalogList = () => {
     return (
         <>
