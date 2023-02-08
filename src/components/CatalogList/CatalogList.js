@@ -1,4 +1,4 @@
-import { CatalogSect,Video,List,Title,ButtonList } from "./CatalogList.styled"
+import { CatalogSect,Video,InfoVideo,List,Title,ButtonList } from "./CatalogList.styled"
 import { Container } from "components/Container";
 export const CatalogList = () => {
     return (
@@ -19,13 +19,13 @@ export const CatalogList = () => {
                                 loop
                                 preload="auto">
                             </Video>
-                            <p>
+                            <InfoVideo>
                                 Since Material UI components are built to function in
                                 isolation, they don't require any
                                 kind of globally scoped styles.
                                 For a better user experience and developer experience, we recommend
                                 adding the following globals to your app.
-                            </p>
+                            </InfoVideo>
                         </li>
                         <li >
                             <Video
@@ -37,13 +37,13 @@ export const CatalogList = () => {
                                 loop
                                 preload="auto">
                             </Video>
-                            <p>
+                                  <InfoVideo>
                                 Since Material UI components are built to function in
                                 isolation, they don't require any
                                 kind of globally scoped styles.
                                 For a better user experience and developer experience, we recommend
                                 adding the following globals to your app.
-                            </p>
+                            </InfoVideo>
                         </li>
                         <li >
                             <Video  
@@ -55,13 +55,13 @@ export const CatalogList = () => {
                                 loop
                                 preload="auto">
                             </Video>
-                            <p>
+                               <InfoVideo>
                                 Since Material UI components are built to function in
                                 isolation, they don't require any
                                 kind of globally scoped styles.
                                 For a better user experience and developer experience, we recommend
                                 adding the following globals to your app.
-                            </p>
+                            </InfoVideo>
                         </li>
                         <li>
                             <Video  
@@ -70,13 +70,13 @@ export const CatalogList = () => {
                                 width="370" controls loop preload="auto"
                                 >
                             </Video>
-                            <p>
+                              <InfoVideo>
                                 Since Material UI components are built to function in
                                 isolation, they don't require any
                                 kind of globally scoped styles.
                                 For a better user experience and developer experience, we recommend
                                 adding the following globals to your app.
-                            </p>
+                            </InfoVideo>
                         </li>
                         <li >
                             <Video 
@@ -85,13 +85,13 @@ export const CatalogList = () => {
                                 width="370" controls 
                                 loop preload="auto">
                             </Video>
-                            <p>
+                               <InfoVideo>
                                 Since Material UI components are built to function in
                                 isolation, they don't require any
                                 kind of globally scoped styles.
                                 For a better user experience and developer experience, we recommend
                                 adding the following globals to your app.
-                            </p>
+                            </InfoVideo>
                         </li>
                         <li>
                             <Video  
@@ -100,13 +100,13 @@ export const CatalogList = () => {
                                 width="370" controls 
                                 loop preload="auto">
                             </Video>
-                            <p>
+                            <InfoVideo>
                                 Since Material UI components are built to function in
                                 isolation, they don't require any
                                 kind of globally scoped styles.
                                 For a better user experience and developer experience, we recommend
                                 adding the following globals to your app.
-                            </p>
+                            </InfoVideo>
                         </li>
                     </List>
                     <ButtonList data-modal-open type="button">

@@ -41,22 +41,22 @@ export const Footer = () => {
                             <NetworksList >
                                 <ItemNetwork >
                                     <Link href="https://www.instagram.com/" className="social-network__link join__link">
-                                        <BsInstagram size={26}/>
+                                        <BsInstagram size={32}/>
                                     </Link>
                                 </ItemNetwork>
                                 <ItemNetwork >
                                     <Link href="https://www.telegram.com/" className="social-network__link join__link">
-                                        <BsTelegram size={26}/>
+                                        <BsTelegram size={32}/>
                                     </Link>
                                 </ItemNetwork>
                                 <ItemNetwork >
                                     <Link href="https://www.facebook.com/" className="social-network__link join__link">
-                                        <BsFacebook size={26} />
+                                        <BsFacebook size={32} />
                                     </Link>
                                 </ItemNetwork>
                                 <ItemNetwork >
                                     <Link href="https://www.linkedin.com/" className="social-network__link join__link">
-                                        <BsLinkedin size={26}/>
+                                        <BsLinkedin size={32}/>
                                     </Link>
                                 </ItemNetwork>
                             </NetworksList>

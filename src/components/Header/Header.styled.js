@@ -5,8 +5,14 @@ export const Head = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+
     margin-bottom: 20px;
     position: relative;
+
+    /* background: rgb(2,0,36); */
+    /* background: linear-gradient(304deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%); */
+
+
     border-bottom: 1px solid black;
 
     @media (min-width: 768px){
@@ -29,7 +35,9 @@ export const LogoLink = styled.a`
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
-
+    &:hover,&:focus{
+        transform: scale(1.3);
+    }
     
     color: #212121;
     @media screen and (min-width: 320px) {
@@ -48,6 +56,9 @@ export const Icon = styled.span`
 
 export const Link = styled.a`
     color: black;
+    &:hover,&:focus{
+        transform: scale(1.3);
+    }
 `;
 export const InfoListItem = styled.li`
     margin-bottom: 10px;

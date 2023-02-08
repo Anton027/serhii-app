@@ -42,4 +42,11 @@ export const ButtonList = styled.button`
     min-width: 80px;
     border-radius: 12px;
     padding:5px 12px;
+    cursor: pointer;
+    &:hover,&:focus{
+        transform: scale(1.3);
+    }
+`;
+export const InfoVideo = styled.p`
+    background-color: #fff;
 `;

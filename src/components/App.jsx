@@ -7,8 +7,9 @@ import { GlobalStyle } from "./GlobalStyle";
 export const App = () => {
   return (
     <>  
-      <Header />
+      
       <BackgroundContainer>
+        <Header />
         <Hero />
         <CatalogList />
         <Footer />

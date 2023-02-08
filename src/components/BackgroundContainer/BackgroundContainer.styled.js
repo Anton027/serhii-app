@@ -3,8 +3,8 @@ import image from '../../images/VectorBlack.png'
 
 export const BackgroundWrap = styled.div`
     background-image: url(${image});
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    object-fit: cover;
-	
+    background-attachment: fixed;
 `

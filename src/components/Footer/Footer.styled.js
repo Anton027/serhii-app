@@ -11,6 +11,9 @@ export const LogoLink = styled.a`
     padding-top: 24px;
     margin-bottom: 24px;
     color: #212121;
+    &:hover,&:focus{
+        transform: scale(1.3);
+    }
 `;
 
 export const Wrapper = styled.div`
@@ -58,6 +61,10 @@ export const NetworkTitle = styled.p`
 export const Link = styled.a`
     color: black;
     font-size: 20px;
+    font-weight: 900;
+    &:hover,&:focus{
+        transform: scale(1.3);
+    }
 `;
 export const Item = styled.li`
     margin-bottom: 10px;
