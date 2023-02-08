@@ -1,4 +1,4 @@
-import { Head, LogoLink, Nav,InfoList,Icon } from "./Header.styled";
+import { Head, LogoLink, Nav,InfoList,Icon,Link,InfoListItem } from "./Header.styled";
 import { AiFillPhone, AiFillMail} from "react-icons/ai";
 import { Container } from "components/Container";
 import { SwitchTheme } from "components/SwitchTheme";
@@ -15,25 +15,24 @@ export const Header = () => {
                         </LogoLink>
                         <SwitchTheme/>
                     </Nav>
-                    <InfoList className="contacts list">
-                        <li className="contacts__item">
-                            <a className="contacts__link contact contacts__link--padding-top" href="mailto:info@devstudio.com">
+                    <InfoList >
+                        <InfoListItem>
+                            <Link  href="mailto:info@devstudio.com">
                             <Icon>
                                 <AiFillMail />
                             </Icon>    
-                            
                                 info@devstudio.com
-                            </a>
-                        </li>
+                            </Link>
+                        </InfoListItem>
 
-                        <li className="contacts__item">
-                            <a className="contacts__link contact contacts__link--padding-bottom" href="tel:+380961111111">
+                        <li>
+                            <Link href="tel:+380961111111">
                                 <Icon>
                                     <AiFillPhone />
                                 </Icon>
                                 
                                 +38 096 111 11 11
-                            </a>
+                            </Link>
                         </li>
                     </InfoList>
                 

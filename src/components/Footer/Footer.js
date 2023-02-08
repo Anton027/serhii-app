@@ -1,5 +1,5 @@
 import { Container } from "components/Container";
-import { FooterSect, Wrapper, LogoLink, WrapAddres,NetworksList,NetworkTitle } from "./Footer.styled"
+import { FooterSect, Wrapper,ItemNetwork, LogoLink,Link,Item, WrapAddres,NetworksList,NetworkTitle } from "./Footer.styled"
 import { BsInstagram,BsFacebook,BsTelegram,BsLinkedin } from 'react-icons/bs';
 export const Footer = () => {
     return (
@@ -13,24 +13,24 @@ export const Footer = () => {
                                 Logo
                             </LogoLink>
                             <address >
-                                <ul >
-                                    <li >
-                                        <a  href="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
+                                <ul>
+                                    <Item >
+                                        <Link  href="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
                                             Ukraine, 30100 Netishyn
-                                        </a>
-                                    </li>
+                                        </Link>
+                                    </Item>
                         
-                                    <li >
-                                        <a  href="mailto:info@devstudio.com">
+                                    <Item >
+                                        <Link  href="mailto:info@devstudio.com">
                                             info@devstudio.com
-                                        </a>
-                                    </li>
+                                        </Link>
+                                    </Item>
                         
-                                    <li >
-                                        <a  href="tel:+380961111111">
+                                    <Item >
+                                        <Link  href="tel:+380961111111">
                                             +38 096 111 11 11
-                                        </a>
-                                    </li>
+                                        </Link>
+                                    </Item>
                                 </ul>
                             </address>
                         </WrapAddres>
@@ -39,26 +39,26 @@ export const Footer = () => {
                                 Join to us
                             </NetworkTitle>
                             <NetworksList >
-                                <li >
-                                    <a href="https://www.instagram.com/" className="social-network__link join__link">
+                                <ItemNetwork >
+                                    <Link href="https://www.instagram.com/" className="social-network__link join__link">
                                         <BsInstagram size={26}/>
-                                    </a>
-                                </li>
-                                <li >
-                                    <a href="https://www.telegram.com/" className="social-network__link join__link">
+                                    </Link>
+                                </ItemNetwork>
+                                <ItemNetwork >
+                                    <Link href="https://www.telegram.com/" className="social-network__link join__link">
                                         <BsTelegram size={26}/>
-                                    </a>
-                                </li>
-                                <li >
-                                    <a href="https://www.facebook.com/" className="social-network__link join__link">
+                                    </Link>
+                                </ItemNetwork>
+                                <ItemNetwork >
+                                    <Link href="https://www.facebook.com/" className="social-network__link join__link">
                                         <BsFacebook size={26} />
-                                    </a>
-                                </li>
-                                <li >
-                                    <a href="https://www.linkedin.com/" className="social-network__link join__link">
+                                    </Link>
+                                </ItemNetwork>
+                                <ItemNetwork >
+                                    <Link href="https://www.linkedin.com/" className="social-network__link join__link">
                                         <BsLinkedin size={26}/>
-                                    </a>
-                                </li>
+                                    </Link>
+                                </ItemNetwork>
                             </NetworksList>
                         </div>
                     </Wrapper>

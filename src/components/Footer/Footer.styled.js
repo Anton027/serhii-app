@@ -45,7 +45,7 @@ export const WrapAddres = styled.div`
 export const NetworksList = styled.ul`
     display: flex;
     justify-content: space-evenly;
-    @media (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         display: flex;
         justify-content:space-around;
     }
@@ -55,3 +55,15 @@ export const NetworkTitle = styled.p`
     font-size: large;
     font-weight: 900;
 `
+export const Link = styled.a`
+    color: black;
+    font-size: 20px;
+`;
+export const Item = styled.li`
+    margin-bottom: 10px;
+`;
+export const ItemNetwork = styled.li`
+    @media screen and (min-width: 768px) {
+        padding: 8px;
+    }
+`;
