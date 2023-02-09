@@ -12,7 +12,8 @@ export const LogoLink = styled.a`
     margin-bottom: 24px;
     color: #212121;
     &:hover,&:focus{
-        transform: scale(1.3);
+        transform: scale(1.25);
+        color: red;
     }
 `;
 
@@ -63,7 +64,7 @@ export const Link = styled.a`
     font-size: 20px;
     font-weight: 900;
     &:hover,&:focus{
-        transform: scale(1.3);
+        color:red;
     }
 `;
 export const Item = styled.li`

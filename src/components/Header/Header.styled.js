@@ -36,7 +36,8 @@ export const LogoLink = styled.a`
     padding-top: 24px;
     padding-bottom: 24px;
     &:hover,&:focus{
-        transform: scale(1.3);
+        transform: scale(1.25);
+        color: red;
     }
     
     color: #212121;
@@ -57,7 +58,7 @@ export const Icon = styled.span`
 export const Link = styled.a`
     color: black;
     &:hover,&:focus{
-        transform: scale(1.3);
+        color:red;
     }
 `;
 export const InfoListItem = styled.li`
