@@ -1,7 +1,7 @@
 import { Head, LogoLink, Nav,InfoList,Icon,Link,InfoListItem } from "./Header.styled";
 import { AiFillPhone, AiFillMail} from "react-icons/ai";
 import { Container } from "components/Container";
-import { SwitchTheme } from "components/SwitchTheme";
+// import { SwitchTheme } from "components/SwitchTheme";
 
 export const Header = () => {
     return (
@@ -13,7 +13,7 @@ export const Header = () => {
                         <LogoLink href="https://www.google.com">
                             Logo
                         </LogoLink>
-                        <SwitchTheme/>
+                        {/* <SwitchTheme/> */}
                     </Nav>
                     <InfoList >
                         <InfoListItem>

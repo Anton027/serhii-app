@@ -2,20 +2,18 @@ import { Header } from "./Header";
 import { Hero } from "./Hero";
 import { CatalogList } from "./CatalogList";
 import { Footer } from "./Footer";
-import { BackgroundContainer } from "./BackgroundContainer";
 import { GlobalStyle } from "./GlobalStyle";
+import { ParticlesBackgrnd } from "./ParticlesBackgrnd";
+
+
 export const App = () => {
   return (
     <>  
-      
-      <BackgroundContainer>
+      <ParticlesBackgrnd id="tsparticles" />
         <Header />
         <Hero />
         <CatalogList />
         <Footer />
-      </BackgroundContainer>
-    
-
       <GlobalStyle />
     </>
   );

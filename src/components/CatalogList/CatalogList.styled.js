@@ -58,6 +58,8 @@ export const ButtonList = styled.button`
     &:hover,&:focus{
         transform: scale(1.25);
         background-color: red;
+        border-color: red;
+        
     }
 `;
 export const InfoVideo = styled.p`
