@@ -13,7 +13,7 @@ export const Head = styled.header`
     /* background: linear-gradient(304deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%); */
 
 
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fff;
 
     @media (min-width: 768px){
         padding: 20px;
@@ -35,18 +35,17 @@ export const LogoLink = styled.a`
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
+    
+    color:#fff
+    ;
     &:hover,&:focus{
-        transform: scale(1.25);
-        color: red;
+        transform: scale(1.07);
+        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
     }
     
-    color: #212121;
-    @media screen and (min-width: 320px) {
-        margin-right: 20px;
-    }
-        @media screen and (min-width: 768px) {
-        margin-right: 40px;
-    }
+    
+    
+
 `;
 export const InfoList = styled.ul`
 
@@ -56,14 +55,26 @@ export const Icon = styled.span`
 `;
 
 export const Link = styled.a`
-    color: black;
+    color: #fff;
     &:hover,&:focus{
-        color:red;
+        transform: scale(1.05);
+        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
     }
 `;
 export const InfoListItem = styled.li`
+       
     margin-bottom: 10px;
+        @media screen and (min-width: 320px) {
+        margin-right: 20px;
+    }
+        @media screen and (min-width: 768px) {
+        margin-right: 40px;
+    }
     @media screen and (min-width: 1280px) {
         margin-bottom: 20px;
     }
+    &:hover,&:focus{
+            transform: scale(1.07);
+            box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+        }
 `;

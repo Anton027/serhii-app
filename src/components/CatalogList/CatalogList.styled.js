@@ -35,33 +35,39 @@ export const List = styled.ul`
 export const Item = styled.li`
     margin-bottom: 20px;
     border-bottom: 1px solid gray;
+    border-radius: 10px;
 
+    color: #fff;
     &:hover,&:focus{
-        transform: scale(1.05);
-        border-bottom: 1px solid red;
+        transform: scale(1.07);
+        border-bottom: 1px solid #fff;
+        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
     }
 `;
 export const Title = styled.h2`
     text-align: center;
     margin-bottom:15px;
+    color: #fff;
 `
 export const ButtonList = styled.button`
     display: block;
         margin-left: auto;
     margin-right: auto;
     color: whitesmoke;
+    border-color: #fff;
     background-color:black;
     min-width: 80px;
     border-radius: 12px;
     padding:5px 12px;
     cursor: pointer;
     &:hover,&:focus{
-        transform: scale(1.25);
-        background-color: red;
-        border-color: red;
-        
+        transform: scale(1.07);
+        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+        border-color: #fff;
+        color: #fff ;
     }
 `;
 export const InfoVideo = styled.p`
-    background-color: #fff;
+    padding: 7px;
+    color: #fff;
 `;

@@ -10,7 +10,7 @@ export const HeroWrap = styled.div`
     text-align: center;
 `
 export const Title = styled.h1`
-    
+    color:#fff;
     font-weight: 900;
     font-size: 26px;
     line-height: 1.6;

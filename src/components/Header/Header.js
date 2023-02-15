@@ -18,14 +18,15 @@ export const Header = () => {
                     <InfoList >
                         <InfoListItem>
                             <Link  href="mailto:info@devstudio.com">
-                            <Icon>
-                                <AiFillMail />
-                            </Icon>    
+                                <Icon>
+                                    <AiFillMail />
+                                </Icon>
+                                
                                 info@devstudio.com
                             </Link>
                         </InfoListItem>
 
-                        <li>
+                        <InfoListItem>
                             <Link href="tel:+380961111111">
                                 <Icon>
                                     <AiFillPhone />
@@ -33,7 +34,7 @@ export const Header = () => {
                                 
                                 +38 096 111 11 11
                             </Link>
-                        </li>
+                        </InfoListItem>
                     </InfoList>
                 
                 </Head>

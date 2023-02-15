@@ -10,10 +10,10 @@ export const LogoLink = styled.a`
     text-align: center;
     padding-top: 24px;
     margin-bottom: 24px;
-    color: #212121;
+    color: #fff;
     &:hover,&:focus{
-        transform: scale(1.25);
-        color: red;
+        transform: scale(1.07);
+        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
     }
 `;
 
@@ -58,20 +58,33 @@ export const NetworkTitle = styled.p`
     text-align: center;
     font-size: large;
     font-weight: 900;
+    color: #fff;
 `
 export const Link = styled.a`
-    color: black;
+    color: #fff;
+    padding: 3px;
+    
     font-size: 20px;
     font-weight: 900;
-    &:hover,&:focus{
-        color:red;
-    }
 `;
 export const Item = styled.li`
     margin-bottom: 10px;
+        &:hover,&:focus{
+            transform: scale(1.07);
+            box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+            border-radius: 5px;
+            border: transparent;
+    }
 `;
 export const ItemNetwork = styled.li`
+
+    &:hover,&:focus{
+            transform: scale(1.07);
+            box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+            border-radius: 5px;
+            border: transparent;
+        }
     @media screen and (min-width: 768px) {
-        padding: 8px;
+        margin: 8px;
     }
 `;
