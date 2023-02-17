@@ -1,5 +1,5 @@
 import { Container } from "components/Container";
-import { FooterSect, Wrapper,ItemNetwork, LogoLink,Link,Item, WrapAddres,NetworksList,NetworkTitle } from "./Footer.styled"
+import { FooterSect, Wrapper,ItemNetwork, LogoLink,Link,List,Item, WrapAddres,NetworksList,NetworkTitle } from "./Footer.styled"
 import { BsInstagram,BsFacebook,BsTelegram,BsLinkedin } from 'react-icons/bs';
 export const Footer = () => {
     return (
@@ -12,8 +12,8 @@ export const Footer = () => {
                             <LogoLink href="https://www.google.com">
                                 Logo
                             </LogoLink>
-                            <address >
-                                <ul>
+                            
+                                <List>
                                     <Item >
                                         <Link  href="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
                                             Ukraine, 30100 Netishyn
@@ -31,8 +31,8 @@ export const Footer = () => {
                                             +38 096 111 11 11
                                         </Link>
                                     </Item>
-                                </ul>
-                            </address>
+                                </List>
+                            
                         </WrapAddres>
                         <div >
                             <NetworkTitle >

@@ -12,9 +12,9 @@ export const Head = styled.header`
     /* background: rgb(2,0,36); */
     /* background: linear-gradient(304deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%); */
 
-
+    border-radius:10px;
     border-bottom: 1px solid #fff;
-
+    box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
     @media (min-width: 768px){
         padding: 20px;
     }
@@ -40,11 +40,8 @@ export const LogoLink = styled.a`
     ;
     &:hover,&:focus{
         transform: scale(1.07);
-        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+        color: orangered;
     }
-    
-    
-    
 
 `;
 export const InfoList = styled.ul`
@@ -58,7 +55,7 @@ export const Link = styled.a`
     color: #fff;
     &:hover,&:focus{
         transform: scale(1.05);
-        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+        color: orangered;
     }
 `;
 export const InfoListItem = styled.li`
@@ -73,8 +70,5 @@ export const InfoListItem = styled.li`
     @media screen and (min-width: 1280px) {
         margin-bottom: 20px;
     }
-    &:hover,&:focus{
-            transform: scale(1.07);
-            box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
-        }
+
 `;

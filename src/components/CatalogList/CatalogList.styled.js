@@ -32,7 +32,7 @@ export const List = styled.ul`
         padding: 20px;
     }
 `
-export const Item = styled.li`
+export const Item = styled.div`
     margin-bottom: 20px;
     border-bottom: 1px solid gray;
     border-radius: 10px;

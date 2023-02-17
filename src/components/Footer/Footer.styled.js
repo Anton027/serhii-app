@@ -13,7 +13,7 @@ export const LogoLink = styled.a`
     color: #fff;
     &:hover,&:focus{
         transform: scale(1.07);
-        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+        color: orangered;
     }
 `;
 
@@ -38,8 +38,16 @@ export const Wrapper = styled.div`
         @media (min-width: 1240px){
         padding-left: 40px;
     }
-
 `
+export const List = styled.ul`
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+`
+
 export const WrapAddres = styled.div`
     display: flex;
     flex-direction: column;
@@ -66,24 +74,20 @@ export const Link = styled.a`
     
     font-size: 20px;
     font-weight: 900;
+    &:hover,&:focus{
+            /* transform: scale(1.07); */
+        color: orangered; 
+            
+    }
 `;
 export const Item = styled.li`
-    margin-bottom: 10px;
-        &:hover,&:focus{
-            transform: scale(1.07);
-            box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
-            border-radius: 5px;
-            border: transparent;
-    }
+    margin-bottom: 20px;
+    /* border: 1px solid #fff; */
+        
+    
 `;
 export const ItemNetwork = styled.li`
 
-    &:hover,&:focus{
-            transform: scale(1.07);
-            box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
-            border-radius: 5px;
-            border: transparent;
-        }
     @media screen and (min-width: 768px) {
         margin: 8px;
     }
