@@ -1,7 +1,8 @@
-import { Head, LogoLink, Nav,InfoList,Icon,Link,InfoListItem } from "./Header.styled";
+import { Head, LogoLink,Pages,PagesLink, Nav,InfoList,Icon,Link,InfoListItem } from "./Header.styled";
 import { AiFillPhone, AiFillMail} from "react-icons/ai";
 import { Container } from "components/Container";
 // import { SwitchTheme } from "components/SwitchTheme";
+
 
 export const Header = () => {
     return (
@@ -15,6 +16,20 @@ export const Header = () => {
                         </LogoLink>
                         {/* <SwitchTheme/> */}
                     </Nav>
+
+                    <Pages>
+                        <li>
+                            <PagesLink to="/" end>
+                                Home
+                            </PagesLink>
+                        </li>
+                        <li>
+                            <PagesLink to="/gallery">
+                                Gallery
+                            </PagesLink>
+                        </li>
+                    </Pages>
+
                     <InfoList >
                         <InfoListItem>
                             <Link  href="mailto:info@devstudio.com">

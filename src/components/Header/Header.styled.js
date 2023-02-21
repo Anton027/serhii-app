@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from "react-router-dom";
 
 export const Head = styled.header`
     display: flex;
@@ -71,4 +72,20 @@ export const InfoListItem = styled.li`
         margin-bottom: 20px;
     }
 
+`;
+
+export const Pages = styled.ul`
+    display: flex;
+`;
+export const PagesLink = styled(NavLink)`
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+
+  &.active {
+    color: white;
+    background-color: orangered;
+  }
 `;
