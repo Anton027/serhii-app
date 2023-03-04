@@ -46,7 +46,9 @@ export const LogoLink = styled.a`
 
 `;
 export const InfoList = styled.ul`
-
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 `;
 export const Icon = styled.span`
     margin-right: 5px;
@@ -60,7 +62,7 @@ export const Link = styled.a`
     }
 `;
 export const InfoListItem = styled.li`
-       
+
     margin-bottom: 10px;
         @media screen and (min-width: 320px) {
         margin-right: 20px;
@@ -78,14 +80,17 @@ export const Pages = styled.ul`
     display: flex;
 `;
 export const PagesLink = styled(NavLink)`
-  padding: 8px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-
-  &.active {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
     color: white;
-    background-color: orangered;
-  }
+    font-weight: 500;
+
+    &.active {
+        color: white;
+        background-color: orangered;
+    }
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 `;

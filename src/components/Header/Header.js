@@ -1,6 +1,7 @@
 import { Head, LogoLink,Pages,PagesLink, Nav,InfoList,Icon,Link,InfoListItem } from "./Header.styled";
 import { AiFillPhone, AiFillMail} from "react-icons/ai";
 import { Container } from "components/Container";
+import { BurgerMenu } from "components/BurgerMenu";
 // import { SwitchTheme } from "components/SwitchTheme";
 
 
@@ -51,7 +52,7 @@ export const Header = () => {
                             </Link>
                         </InfoListItem>
                     </InfoList>
-                
+                    <BurgerMenu/>
                 </Head>
             </Container>
         </>
