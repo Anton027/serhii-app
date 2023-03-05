@@ -1,1 +1,1 @@
-export { SimpleSlider } from "./SimpleSlider"
+export { SliderResponsive } from "./SimpleSlider"
