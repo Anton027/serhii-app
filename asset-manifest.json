@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/serhii-app/static/css/main.0d5b2924.css",
-    "main.js": "/serhii-app/static/js/main.778d1f7a.js",
+    "main.js": "/serhii-app/static/js/main.ea45c079.js",
     "index.html": "/serhii-app/index.html",
     "main.0d5b2924.css.map": "/serhii-app/static/css/main.0d5b2924.css.map",
-    "main.778d1f7a.js.map": "/serhii-app/static/js/main.778d1f7a.js.map"
+    "main.ea45c079.js.map": "/serhii-app/static/js/main.ea45c079.js.map"
   },
   "entrypoints": [
     "static/css/main.0d5b2924.css",
-    "static/js/main.778d1f7a.js"
+    "static/js/main.ea45c079.js"
   ]
 }
