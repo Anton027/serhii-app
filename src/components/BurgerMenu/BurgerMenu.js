@@ -30,7 +30,7 @@ export const BurgerMenu = () => {
                 aria-expanded={open ? 'true' : undefined}
                 onClick={handleClick}
             >
-                <MenuIcon color="white" />
+                <MenuIcon style={{ fill: '#ffffff' }} />
             </IconButton>
             <Menu
                 id="basic-menu"

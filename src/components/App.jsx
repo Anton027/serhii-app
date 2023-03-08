@@ -6,8 +6,8 @@ import {  ParticlesBackgrnd } from "./ParticlesBackgrnd";
 import Home from "pages/Home";
 
 import { Footer } from "./Footer";
-import { Routes,Route } from "react-router-dom";
-import Gallery from "pages/Gallery";
+// import { Routes,Route } from "react-router-dom";
+// import Gallery from "pages/Gallery";
 
 
 export const App = () => {
@@ -17,9 +17,9 @@ export const App = () => {
         {/* <ParticlesBg />   */}
         <Header />
       <Home />
-      <Routes>
+      {/* <Routes>
         <Route path='/gallery' element={<Gallery/>}></Route>
-      </Routes>
+      </Routes> */}
         <Footer />
         <GlobalStyle />
     </>
