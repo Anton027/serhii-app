@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/serhii-app/static/css/main.9308bc6f.css",
-    "main.js": "/serhii-app/static/js/main.1426ea66.js",
+    "main.js": "/serhii-app/static/js/main.c8f464ae.js",
+    "static/js/57.db6c0d31.chunk.js": "/serhii-app/static/js/57.db6c0d31.chunk.js",
+    "static/js/960.df9a5ffe.chunk.js": "/serhii-app/static/js/960.df9a5ffe.chunk.js",
+    "static/js/805.9e7446fa.chunk.js": "/serhii-app/static/js/805.9e7446fa.chunk.js",
+    "static/media/hero.jpg": "/serhii-app/static/media/hero.7e7450b4e8336123458b.jpg",
     "index.html": "/serhii-app/index.html",
     "main.9308bc6f.css.map": "/serhii-app/static/css/main.9308bc6f.css.map",
-    "main.1426ea66.js.map": "/serhii-app/static/js/main.1426ea66.js.map"
+    "main.c8f464ae.js.map": "/serhii-app/static/js/main.c8f464ae.js.map",
+    "57.db6c0d31.chunk.js.map": "/serhii-app/static/js/57.db6c0d31.chunk.js.map",
+    "960.df9a5ffe.chunk.js.map": "/serhii-app/static/js/960.df9a5ffe.chunk.js.map",
+    "805.9e7446fa.chunk.js.map": "/serhii-app/static/js/805.9e7446fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9308bc6f.css",
-    "static/js/main.1426ea66.js"
+    "static/js/main.c8f464ae.js"
   ]
 }
