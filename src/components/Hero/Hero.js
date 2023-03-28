@@ -1,5 +1,7 @@
 import { HeroSection,HeroWrap,Title,ImageWrap } from "./Hero.styled";
+
 import { Container } from "components/Container";
+import hero from "../../images/hero.jpg"
 export const Hero = () => {
     return (
         <>
@@ -9,9 +11,9 @@ export const Hero = () => {
                         <Title>
                             Plese give some text
                         </Title>
-                        <ImageWrap>
+                        <ImageWrap src={hero} alt="hero" />
                             
-                        </ImageWrap>
+                        
                         {/* <button data-modal-open type="button" class="hero__btn btn">
                             Press
                         </button> */}

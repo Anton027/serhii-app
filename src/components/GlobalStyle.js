@@ -8,6 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     font-family: "Verdana";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    background-color: #000;
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from 'react-router-dom';
 
 export const CatalogSect = styled.section`
 
@@ -19,6 +20,7 @@ export const Video = styled.video`
 export const List = styled.ul`
         display: grid;
         padding: 10px;
+
     @media (min-width: 768px){
         padding: 20px;
         grid-template-columns: repeat(2, 1fr);
@@ -49,14 +51,18 @@ export const Title = styled.h2`
     margin-bottom:15px;
     color: #fff;
 `
-export const ButtonList = styled.button`
-    display: block;
-        margin-left: auto;
+export const LinkMore = styled(NavLink)`
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
     margin-right: auto;
+
     color: whitesmoke;
-    border-color: #fff;
     background-color:black;
     min-width: 80px;
+    border: 1px solid #fff;
     border-radius: 12px;
     padding:5px 12px;
     cursor: pointer;
@@ -66,8 +72,17 @@ export const ButtonList = styled.button`
         border-color: #fff;
         color: #fff ;
     }
-`;
+`
 export const InfoVideo = styled.p`
     padding: 7px;
     color: #fff;
 `;
+export const InfoVideoModal = styled.p`
+    padding: 7px;
+    color: #000;
+`;
+export const WrapLink = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`

@@ -19,10 +19,12 @@ export const Title = styled.h1`
     text-transform: uppercase;
     padding-top: 30px;
 `
-export const ImageWrap = styled.div`
+export const ImageWrap = styled.img`
     width: 100%;
     min-height: 400px;
-    background-color: #fff;
+    
+
+    /* background-color: #fff; */
     border-bottom: 1px solid #fff;
     box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
 `

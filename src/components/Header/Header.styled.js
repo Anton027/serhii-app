@@ -87,8 +87,8 @@ export const PagesLink = styled(NavLink)`
     font-weight: 500;
 
     &.active {
-        color: white;
-        background-color: orangered;
+        color: #fff;
+        background-color: #640980;
     }
     @media screen and (max-width: 767px) {
         display: none;

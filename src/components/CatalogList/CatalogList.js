@@ -1,4 +1,14 @@
-import { CatalogSect,Video,InfoVideo,List,Item,Title,ButtonList } from "./CatalogList.styled"
+import {
+    CatalogSect,
+    Video,
+    LinkMore,
+    InfoVideo,
+    List,
+    Item,
+    Title,
+    WrapLink,
+    InfoVideoModal
+} from "./CatalogList.styled"
 import { Container } from "components/Container";
 
 import * as React from 'react';
@@ -43,7 +53,13 @@ export const CatalogList = () => {
                                     loop
                                     preload="auto">
                                 </Video>
-                                
+                                <InfoVideo>
+                                    Since Material UI components are built to function in
+                                    isolation, they don't require any
+                                    kind of globally scoped styles.
+                                    For a better user experience and developer experience, we recommend
+                                    adding the following globals to your app.
+                                </InfoVideo>
                             </Item>
                             <Item>
                                 <Video 
@@ -127,9 +143,11 @@ export const CatalogList = () => {
                             </Item>
                         {/* </Slider> */}
                     </List>
-                    <ButtonList data-modal-open type="button">
-                        More
-                    </ButtonList>
+                    <WrapLink>
+                        <LinkMore to={"/gallery"}>
+                            More
+                        </LinkMore>
+                    </WrapLink>
                 </Container>
             </CatalogSect>
 
@@ -150,13 +168,13 @@ export const CatalogList = () => {
                                     preload="auto">
                                 </Video>
                     <Typography id="modal-modal-title" variant="h6" component="h2">
-                        <InfoVideo>
+                        <InfoVideoModal>
                                     Since Material UI components are built to function in
                                     isolation, they don't require any
                                     kind of globally scoped styles.
                                     For a better user experience and developer experience, we recommend
                                     adding the following globals to your app.
-                        </InfoVideo>
+                        </InfoVideoModal>
                     </Typography>
                     {/* <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                         Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
