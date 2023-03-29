@@ -7,29 +7,31 @@ import {
     Item,
     Title,
     WrapLink,
-    InfoVideoModal
+    InfoVideoModal,
+    WindowModal
 } from "./CatalogList.styled"
 import { Container } from "components/Container";
 
 import * as React from 'react';
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 // import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
-const style = {
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    width: 400,
-    bgcolor: 'background.paper',
-    border: '2px solid #000',
-    boxShadow: 24,
-    p: 4,
-};
+// const style = {
+//     position: 'absolute',
+//     top: '50%',
+//     left: '50%',
+//     transform: 'translate(-50%, -50%)',
+//     width: 800,
+//     bgcolor: 'background.paper',
+//     border: '2px solid #000',
+//     boxShadow: 24,
+//     p: 4,
+// };
 
 export const CatalogList = () => {
+    
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -159,7 +161,7 @@ export const CatalogList = () => {
                     aria-labelledby="modal-modal-title"
                     aria-describedby="modal-modal-description"
                 >
-                    <Box sx={style}>
+                    <WindowModal>
                         <Video 
                                     src="http://techslides.com/demos/sample-videos/small.webm"
                                     poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
@@ -167,19 +169,19 @@ export const CatalogList = () => {
                                     loop
                                     preload="auto">
                                 </Video>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                        <InfoVideoModal>
-                                    Since Material UI components are built to function in
-                                    isolation, they don't require any
-                                    kind of globally scoped styles.
-                                    For a better user experience and developer experience, we recommend
-                                    adding the following globals to your app.
-                        </InfoVideoModal>
-                    </Typography>
+                        <Typography id="modal-modal-title" variant="h6" component="h2">
+                            <InfoVideoModal>
+                                        Since Material UI components are built to function in
+                                        isolation, they don't require any
+                                        kind of globally scoped styles.
+                                        For a better user experience and developer experience, we recommend
+                                        adding the following globals to your app.
+                            </InfoVideoModal>
+                        </Typography>
                     {/* <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                         Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
                     </Typography> */}
-                    </Box>
+                    </WindowModal>
                 </Modal>
             </div>
         </>

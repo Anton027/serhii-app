@@ -1,21 +1,25 @@
 import styled from '@emotion/styled';
+import { NavLink } from "react-router-dom";
 
 export const FooterSect = styled.footer`
 
 `
-export const LogoLink = styled.a`
+export const LogoLink = styled(NavLink)`
     font-size: large;
     font-weight: 900;
     text-decoration: none;
-    text-align: center;
-    padding-top: 24px;
-    margin-bottom: 24px;
-    color: #fff;
+    padding: 5px;
+    background-color: rgba(250,250,250, 0) ;
+    border-radius: 5px;
+    ;
     &:hover,&:focus{
         transform: scale(1.07);
-        color: orangered;
     }
 `;
+export const Logo = styled.img`
+    max-width: 48px;
+    max-height: 48px;
+`
 
 export const Wrapper = styled.div`
 
@@ -76,7 +80,7 @@ export const Link = styled.a`
     font-weight: 900;
     &:hover,&:focus{
             /* transform: scale(1.07); */
-        color: orangered; 
+        color: #640980; 
             
     }
 `;

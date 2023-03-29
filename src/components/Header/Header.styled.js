@@ -30,21 +30,7 @@ export const Nav = styled.nav`
 
 `;
 
-export const LogoLink = styled.a`
-    font-size: large;
-    font-weight: 900;
-    text-decoration: none;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
-    color:#fff
-    ;
-    &:hover,&:focus{
-        transform: scale(1.07);
-        color: orangered;
-    }
 
-`;
 export const InfoList = styled.ul`
     @media screen and (max-width: 767px) {
         display: none;
@@ -58,7 +44,7 @@ export const Link = styled.a`
     color: #fff;
     &:hover,&:focus{
         transform: scale(1.05);
-        color: orangered;
+        color: #640980;
     }
 `;
 export const InfoListItem = styled.li`
@@ -94,3 +80,20 @@ export const PagesLink = styled(NavLink)`
         display: none;
     }
 `;
+
+export const LogoLink = styled(NavLink)`
+    font-size: large;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(250,250,250, 0) ;
+    border-radius: 5px;
+    ;
+    &:hover,&:focus{
+        transform: scale(1.07);
+    }
+`;
+export const Logo = styled.img`
+    max-width: 48px;
+    max-height: 48px;
+`

@@ -1,7 +1,11 @@
-import { Head, LogoLink,Pages,PagesLink, Nav,InfoList,Icon,Link,InfoListItem } from "./Header.styled";
+import {
+    Head, LogoLink, Pages, Logo
+    , PagesLink, Nav, InfoList, Icon, Link, InfoListItem
+} from "./Header.styled";
 import { AiFillPhone, AiFillMail} from "react-icons/ai";
 import { Container } from "components/Container";
 import { BurgerMenu } from "components/BurgerMenu";
+import logo from "../../images/video-logo.png"
 // import { SwitchTheme } from "components/SwitchTheme";
 
 
@@ -12,8 +16,8 @@ export const Header = () => {
                 <Head>
                 
                     <Nav>
-                        <LogoLink href="https://www.google.com">
-                            Logo
+                        <LogoLink to="/">
+                            <Logo src={logo} alt="logo"/>
                         </LogoLink>
                         {/* <SwitchTheme/> */}
                     </Nav>

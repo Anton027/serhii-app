@@ -1,8 +1,9 @@
+import { CatalogList } from "components/CatalogList";
 
 const Gallery = () => {
     return (
         <>
-            <h1>Gallery my works</h1>
+            <CatalogList />
         </>
     )
 };

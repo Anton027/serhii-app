@@ -1,6 +1,8 @@
 import { Container } from "components/Container";
-import { FooterSect, Wrapper,ItemNetwork, LogoLink,Link,List,Item, WrapAddres,NetworksList,NetworkTitle } from "./Footer.styled"
+import { FooterSect, Wrapper,ItemNetwork, LogoLink,Link,List,Item, WrapAddres,NetworksList,NetworkTitle,Logo } from "./Footer.styled"
 import { BsInstagram,BsFacebook,BsTelegram,BsLinkedin } from 'react-icons/bs';
+import logo from "../../images/video-logo.png"
+
 export const Footer = () => {
     return (
         <>
@@ -9,8 +11,8 @@ export const Footer = () => {
     
                     <Wrapper>
                         <WrapAddres>
-                            <LogoLink href="https://www.google.com">
-                                Logo
+                            <LogoLink to="/">
+                                <Logo src={logo} alt="logo" />
                             </LogoLink>
                             
                                 <List>

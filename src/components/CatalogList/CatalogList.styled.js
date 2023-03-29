@@ -80,9 +80,27 @@ export const InfoVideo = styled.p`
 export const InfoVideoModal = styled.p`
     padding: 7px;
     color: #000;
+    text-align: center;
 `;
 export const WrapLink = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+`
+export const WindowModal = styled.div`
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(240, 240, 240, 0.8);
+    border: 2px solid #640980;
+    border-radius:  8px;
+    padding:10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
 `
