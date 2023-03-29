@@ -31,7 +31,7 @@ import Modal from '@mui/material/Modal';
 // };
 
 export const CatalogList = () => {
-    
+
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -63,7 +63,7 @@ export const CatalogList = () => {
                                     adding the following globals to your app.
                                 </InfoVideo>
                             </Item>
-                            <Item>
+                            <Item onClick={handleOpen}>
                                 <Video 
                                     src="http://techslides.com/demos/sample-videos/small.webm"
                                     poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
@@ -79,7 +79,7 @@ export const CatalogList = () => {
                                     adding the following globals to your app.
                                 </InfoVideo>
                             </Item>
-                            <Item>
+                            <Item onClick={handleOpen}>
                                 <Video 
                                     src="http://techslides.com/demos/sample-videos/small.webm"
                                     poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
@@ -95,7 +95,7 @@ export const CatalogList = () => {
                                     adding the following globals to your app.
                                 </InfoVideo>
                             </Item>
-                            <Item>
+                            <Item onClick={handleOpen}>
                                 <Video 
                                     src="http://techslides.com/demos/sample-videos/small.webm"
                                     poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
@@ -111,7 +111,7 @@ export const CatalogList = () => {
                                     adding the following globals to your app.
                                 </InfoVideo>
                             </Item>
-                            <Item>
+                            <Item onClick={handleOpen}>
                                 <Video 
                                     src="http://techslides.com/demos/sample-videos/small.webm"
                                     poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
@@ -127,7 +127,7 @@ export const CatalogList = () => {
                                     adding the following globals to your app.
                                 </InfoVideo>
                             </Item>
-                            <Item>
+                            <Item onClick={handleOpen}>
                                 <Video 
                                     src="http://techslides.com/demos/sample-videos/small.webm"
                                     poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 

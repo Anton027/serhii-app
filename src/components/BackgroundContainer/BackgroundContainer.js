@@ -1,4 +1,11 @@
-import { BackgroundWrap } from "./BackgroundContainer.styled"
+import { BackgroundWrap,ListNight,StarItem } from "./BackgroundContainer.styled"
 export const BackgroundContainer = ({ children }) => {
-    return <BackgroundWrap>{children }</BackgroundWrap>
+    return (
+        <BackgroundWrap>
+            <ListNight>
+                <StarItem></StarItem>
+            </ListNight>
+            {children}
+        </BackgroundWrap>
+    )
 }
