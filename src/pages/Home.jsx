@@ -1,5 +1,6 @@
-import { CatalogList } from "components/CatalogList";
+
 import { Hero } from "components/Hero";
+import { MainGallery } from "components/MainGallery/MainGallery";
 // import { SliderResponsive } from "components/SimpleSlider";
 
 
@@ -7,7 +8,7 @@ const Home = () => {
     return (
         <>
             <Hero />
-            <CatalogList />
+            <MainGallery />
         </>
     )
 };

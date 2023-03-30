@@ -10,7 +10,7 @@ export const BackgroundWrap = styled.div`
 `
 
 export const ListNight = styled.ul`
-    z-index: -1;
+    
     position: relative;
     width: 100%;
     height: 100%;
@@ -20,7 +20,7 @@ export const ListNight = styled.ul`
         animation: sky 200000ms linear infinite;
 `
 export const StarItem = styled.li`
-    z-index: -1;
+    
     position: absolute;
     left: 50%;
     top: 50%;

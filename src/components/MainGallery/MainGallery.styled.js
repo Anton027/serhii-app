@@ -1,22 +1,7 @@
 import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
-export const CatalogSect = styled.section`
 
-    margin-bottom: 30px;
-`
-export const Video = styled.video`
-    width: 290px;
-
-    cursor: pointer;
-    @media (min-width: 768px){
-        width: 320px;
-    }
-        @media (min-width: 1240px){
-        width: 390px;
-    } 
-
-`
 export const List = styled.ul`
         display: grid;
         padding: 10px;
@@ -38,7 +23,6 @@ export const Item = styled.div`
     margin-bottom: 20px;
     border-bottom: 1px solid gray;
     border-radius: 10px;
-
     color: #fff;
     &:hover,&:focus{
         transform: scale(1.07);
@@ -46,13 +30,71 @@ export const Item = styled.div`
         box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
     }
 
-`;
+    &:nth-child(1){
+        animation: animateX50 3000ms infinite 1000ms;
+    }
+    @keyframes animateX50 {
+        0% {
+            transform: translateX(0);
+        }
 
-export const Title = styled.h2`
-    text-align: center;
-    margin-bottom:15px;
-    color: #fff;
+        50% {
+            transform: translateX(50px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+
+    &:nth-child(2) {
+        animation: animateY110 3000ms infinite 1000ms;
+    }
+    @keyframes animateY110 {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(110px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    &:nth-child(3) {
+    animation: animateX50Y100 3000ms infinite 1000ms;
+    }
+    @keyframes animateX50Y100 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        50% {
+            transform: translate(-50px, -100px);
+        }
+
+        100% {
+            transform: translate(0, 0);
+        }
+    }
 `
+
+export const Video = styled.video`
+    width: 290px;
+
+    cursor: pointer;
+    @media (min-width: 768px){
+        width: 320px;
+    }
+        @media (min-width: 1240px){
+        width: 390px;
+    } 
+
+`
+
 export const LinkMore = styled(NavLink)`
     display: inline-flex;
     justify-content: center;
@@ -75,35 +117,8 @@ export const LinkMore = styled(NavLink)`
         color: #fff ;
     }
 `
-
-export const InfoVideo = styled.p`
-    padding: 7px;
-    color: #fff;
-`;
-export const InfoVideoModal = styled.p`
-    padding: 7px;
-    color: #000;
-    text-align: center;
-`;
 export const WrapLink = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-`
-export const WindowModal = styled.div`
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(240, 240, 240, 0.8);
-    border: 2px solid #640980;
-    border-radius:  8px;
-    padding:10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
 `
