@@ -1,34 +1,18 @@
 import {
     CatalogSect,
     Video,
-    LinkMore,
     InfoVideo,
     List,
     Item,
     Title,
-    WrapLink,
     InfoVideoModal,
     WindowModal
 } from "./CatalogList.styled"
 import { Container } from "components/Container";
-
 import * as React from 'react';
-// import Box from '@mui/material/Box';
-// import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
-// const style = {
-//     position: 'absolute',
-//     top: '50%',
-//     left: '50%',
-//     transform: 'translate(-50%, -50%)',
-//     width: 800,
-//     bgcolor: 'background.paper',
-//     border: '2px solid #000',
-//     boxShadow: 24,
-//     p: 4,
-// };
 
 export const CatalogList = () => {
 
@@ -38,7 +22,7 @@ export const CatalogList = () => {
 
     return (
         <>
-        <CatalogSect>
+            <CatalogSect>
                 <Container>
                     <Title 
                         lang="en"
@@ -46,16 +30,15 @@ export const CatalogList = () => {
                         Portfilio or My Projects
                     </Title>
                     <List >
-                        {/* <Slider {...settings}> */}
-                            <Item onClick={handleOpen}>
-                                <Video 
-                                    src="http://techslides.com/demos/sample-videos/small.webm"
-                                    poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
-                                    controls 
-                                    loop
-                                    preload="auto">
-                                </Video>
-                                <InfoVideo>
+                            <Item >
+                                <iframe
+                                width="390"
+                                // height="315"
+                                src="https://www.youtube.com/embed/FJNZTOmp4EM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                                
+                                </iframe>
+                                <InfoVideo onClick={handleOpen}>
                                     Since Material UI components are built to function in
                                     isolation, they don't require any
                                     kind of globally scoped styles.
@@ -68,8 +51,7 @@ export const CatalogList = () => {
                                     src="http://techslides.com/demos/sample-videos/small.webm"
                                     poster="https://images.pexels.com/photos/595804/pexels-photo-595804.jpeg?w=640" 
                                     controls 
-                                    loop
-                                    preload="auto">
+                                >
                                 </Video>
                                 <InfoVideo>
                                     Since Material UI components are built to function in
@@ -145,11 +127,11 @@ export const CatalogList = () => {
                             </Item>
                         {/* </Slider> */}
                     </List>
-                    <WrapLink>
+                    {/* <WrapLink>
                         <LinkMore to={"/gallery"}>
                             More
                         </LinkMore>
-                    </WrapLink>
+                    </WrapLink> */}
                 </Container>
             </CatalogSect>
 

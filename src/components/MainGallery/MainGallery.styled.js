@@ -19,6 +19,7 @@ export const List = styled.ul`
         padding: 20px;
     }
 `
+
 export const Item = styled.div`
     margin-bottom: 20px;
     border-bottom: 1px solid gray;
@@ -28,57 +29,6 @@ export const Item = styled.div`
         transform: scale(1.07);
         border-bottom: 1px solid #fff;
         box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
-    }
-
-    &:nth-child(1){
-        animation: animateX50 3000ms infinite 1000ms;
-    }
-    @keyframes animateX50 {
-        0% {
-            transform: translateX(0);
-        }
-
-        50% {
-            transform: translateX(50px);
-        }
-
-        100% {
-            transform: translateX(0);
-        }
-    }
-
-    &:nth-child(2) {
-        animation: animateY110 3000ms infinite 1000ms;
-    }
-    @keyframes animateY110 {
-        0% {
-            transform: translateY(0);
-        }
-
-        50% {
-            transform: translateY(110px);
-        }
-
-        100% {
-            transform: translateY(0);
-        }
-    }
-
-    &:nth-child(3) {
-    animation: animateX50Y100 3000ms infinite 1000ms;
-    }
-    @keyframes animateX50Y100 {
-        0% {
-            transform: translate(0, 0);
-        }
-
-        50% {
-            transform: translate(-50px, -100px);
-        }
-
-        100% {
-            transform: translate(0, 0);
-        }
     }
 `
 
@@ -113,12 +63,16 @@ export const LinkMore = styled(NavLink)`
     &:hover,&:focus{
         transform: scale(1.07);
         box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
-        border-color: #fff;
-        color: #fff ;
+        border-color: #fff; 
     }
 `
+
 export const WrapLink = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+`
+
+export const WrapSwiper = styled.section`
+    background-color:#fff;
 `

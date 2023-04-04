@@ -17,19 +17,19 @@ export const Footer = () => {
                             
                                 <List>
                                     <Item >
-                                        <Link  href="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
+                                        <Link  to="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
                                             Ukraine, 30100 Netishyn
                                         </Link>
                                     </Item>
                         
                                     <Item >
-                                        <Link  href="mailto:info@devstudio.com">
+                                        <Link  to="mailto:info@devstudio.com">
                                             info@devstudio.com
                                         </Link>
                                     </Item>
                         
                                     <Item >
-                                        <Link  href="tel:+380961111111">
+                                        <Link  to="tel:+380961111111">
                                             +38 096 111 11 11
                                         </Link>
                                     </Item>
@@ -42,22 +42,22 @@ export const Footer = () => {
                             </NetworkTitle>
                             <NetworksList >
                                 <ItemNetwork >
-                                    <Link href="https://www.instagram.com/" className="social-network__link join__link">
+                                    <Link to="https://www.instagram.com/" target="_blank" className="social-network__link join__link">
                                         <BsInstagram size={32}/>
                                     </Link>
                                 </ItemNetwork>
                                 <ItemNetwork >
-                                    <Link href="https://www.telegram.com/" className="social-network__link join__link">
+                                    <Link to="https://www.telegram.com/" target="_blank" className="social-network__link join__link">
                                         <BsTelegram size={32}/>
                                     </Link>
                                 </ItemNetwork>
                                 <ItemNetwork >
-                                    <Link href="https://www.facebook.com/" className="social-network__link join__link">
+                                    <Link to="https://www.facebook.com/"  target="_blank" className="social-network__link join__link">
                                         <BsFacebook size={32} />
                                     </Link>
                                 </ItemNetwork>
                                 <ItemNetwork >
-                                    <Link href="https://www.linkedin.com/" className="social-network__link join__link">
+                                    <Link to="https://www.linkedin.com/"  target="_blank" className="social-network__link join__link">
                                         <BsLinkedin size={32}/>
                                     </Link>
                                 </ItemNetwork>

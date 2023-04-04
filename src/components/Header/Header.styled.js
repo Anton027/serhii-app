@@ -38,12 +38,12 @@ export const InfoList = styled.ul`
 `;
 export const Icon = styled.span`
     margin-right: 5px;
+
 `;
 
-export const Link = styled.a`
+export const Link = styled(NavLink)`
     color: #fff;
     &:hover,&:focus{
-        transform: scale(1.05);
         color: #640980;
     }
 `;
@@ -65,13 +65,16 @@ export const InfoListItem = styled.li`
 export const Pages = styled.ul`
     display: flex;
 `;
+
 export const PagesLink = styled(NavLink)`
     padding: 8px 16px;
     border-radius: 4px;
     text-decoration: none;
     color: white;
     font-weight: 500;
-
+    &:hover,&:focus{
+        color: #640980;
+    }
     &.active {
         color: #fff;
         background-color: #640980;

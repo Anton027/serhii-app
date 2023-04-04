@@ -72,7 +72,7 @@ export const NetworkTitle = styled.p`
     font-weight: 900;
     color: #fff;
 `
-export const Link = styled.a`
+export const Link = styled(NavLink)`
     color: #fff;
     padding: 3px;
     

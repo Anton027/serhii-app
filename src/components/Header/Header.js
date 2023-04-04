@@ -37,7 +37,7 @@ export const Header = () => {
 
                     <InfoList >
                         <InfoListItem>
-                            <Link  href="mailto:info@devstudio.com">
+                            <Link  to="mailto:info@devstudio.com">
                                 <Icon>
                                     <AiFillMail />
                                 </Icon>
@@ -47,7 +47,7 @@ export const Header = () => {
                         </InfoListItem>
 
                         <InfoListItem>
-                            <Link href="tel:+380961111111">
+                            <Link to="tel:+380961111111">
                                 <Icon>
                                     <AiFillPhone />
                                 </Icon>
