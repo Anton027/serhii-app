@@ -26,6 +26,7 @@ export const Wrapper = styled.div`
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 10px;
+
     @media (min-width:768px) {
         display: flex;
         align-items: baseline;
@@ -78,18 +79,18 @@ export const Link = styled(NavLink)`
     
     font-size: 20px;
     font-weight: 900;
+    
     &:hover,&:focus{
-            /* transform: scale(1.07); */
+
         color: #640980; 
             
     }
 `;
+
 export const Item = styled.li`
     margin-bottom: 20px;
-    /* border: 1px solid #fff; */
-        
-    
 `;
+
 export const ItemNetwork = styled.li`
 
     @media screen and (min-width: 768px) {

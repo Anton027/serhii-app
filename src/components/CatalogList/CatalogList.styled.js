@@ -2,24 +2,33 @@ import styled from '@emotion/styled';
 import { NavLink } from 'react-router-dom';
 
 export const CatalogSect = styled.section`
-
+    margin-top:50px;
     margin-bottom: 30px;
-`
-export const Video = styled.video`
-    width: 290px;
+`;
+
+export const Video = styled.iframe`
+    min-width: 290px;
+    min-height: 290px;
+
+    border-radius: 10px;
 
     cursor: pointer;
     @media (min-width: 768px){
-        width: 320px;
+        min-width: 320px;
     }
         @media (min-width: 1240px){
-        width: 390px;
+        min-width: 390px;
     } 
 
-`
+    &:hover,&:focus{
+        transform: scale(1.02);
+        box-shadow: 0px 1px 30px 3px rgba(167, 15, 214,1);
+    }
+`;
+
 export const List = styled.ul`
-        display: grid;
-        padding: 10px;
+    display: grid;
+    padding: 10px;
 
     @media (min-width: 768px){
         padding: 20px;
@@ -27,32 +36,27 @@ export const List = styled.ul`
         grid-gap: 15px;
         padding: 15px;
     }
-        @media (min-width: 1240px){
+    @media (min-width: 1240px){
         padding: 40px;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 20px;
         padding: 20px;
     }
-`
+`;
+
 export const Item = styled.div`
-    margin-bottom: 20px;
-    border-bottom: 1px solid gray;
-    border-radius: 10px;
-
-    color: #fff;
-    &:hover,&:focus{
-        transform: scale(1.07);
-        border-bottom: 1px solid #fff;
-        box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
-    }
-
+    /* &:hover,&:focus{
+        transform: scale(1.02);
+        box-shadow: 0px 1px 30px 3px rgba(167, 15, 214,1);
+    } */
 `;
 
 export const Title = styled.h2`
     text-align: center;
     margin-bottom:15px;
     color: #fff;
-`
+`;
+
 export const LinkMore = styled(NavLink)`
     display: inline-flex;
     justify-content: center;
@@ -68,28 +72,32 @@ export const LinkMore = styled(NavLink)`
     border-radius: 12px;
     padding:5px 12px;
     cursor: pointer;
+
     &:hover,&:focus{
         transform: scale(1.07);
         box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
         border-color: #fff;
         color: #fff ;
     }
-`
+`;
 
 export const InfoVideo = styled.p`
     padding: 7px;
     color: #fff;
 `;
+
 export const InfoVideoModal = styled.p`
     padding: 7px;
     color: #000;
     text-align: center;
 `;
+
 export const WrapLink = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-`
+`;
+
 export const WindowModal = styled.div`
     position: absolute;
     top: 50%;
@@ -106,4 +114,4 @@ export const WindowModal = styled.div`
     align-items: center;
 
     box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
-`
+`;

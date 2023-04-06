@@ -17,7 +17,7 @@ export const Footer = () => {
                             
                                 <List>
                                     <Item >
-                                        <Link  to="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
+                                        <Link  to="https://goo.gl/maps/qqfPJEeKQyeXZiAr5" target="_blank">
                                             Ukraine, 30100 Netishyn
                                         </Link>
                                     </Item>

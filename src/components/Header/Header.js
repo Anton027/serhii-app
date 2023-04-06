@@ -14,7 +14,6 @@ export const Header = () => {
         <>
             <Container>
                 <Head>
-                
                     <Nav>
                         <LogoLink to="/">
                             <Logo src={logo} alt="logo"/>

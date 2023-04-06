@@ -3,24 +3,29 @@ import { NavLink } from "react-router-dom";
 
 export const Head = styled.header`
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
 
+    padding-top: 10px;
+    padding-bottom:10px;
     margin-bottom: 20px;
+
     position: relative;
 
     /* background: rgb(2,0,36); */
     /* background: linear-gradient(304deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 100%); */
 
     border-radius:10px;
-    border-bottom: 1px solid #fff;
-    box-shadow: 0px 1px 30px 8px rgba(255,255,255,1);
+    /* border-bottom: 1px solid #fff; */
+    box-shadow: 0px 1px 30px 4px rgba(	100, 9, 128,1);
+
     @media (min-width: 768px){
-        padding: 20px;
+        padding-top: 20px;
+        padding-bottom:20px;
     }
     @media (min-width: 1240px){
-        padding: 40px;
+        padding-top: 40px;
+        padding-bottom:40px;
     }
 `;
 
