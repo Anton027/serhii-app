@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/serhii-app/static/css/main.9308bc6f.css",
-    "main.js": "/serhii-app/static/js/main.7d76cc89.js",
+    "main.js": "/serhii-app/static/js/main.a40a0845.js",
     "static/css/873.b0e6fc68.chunk.css": "/serhii-app/static/css/873.b0e6fc68.chunk.css",
     "static/js/873.440b51b2.chunk.js": "/serhii-app/static/js/873.440b51b2.chunk.js",
-    "static/js/189.b33d8bed.chunk.js": "/serhii-app/static/js/189.b33d8bed.chunk.js",
+    "static/js/189.f405a5d0.chunk.js": "/serhii-app/static/js/189.f405a5d0.chunk.js",
     "static/js/805.9e7446fa.chunk.js": "/serhii-app/static/js/805.9e7446fa.chunk.js",
     "static/js/357.3c34368e.chunk.js": "/serhii-app/static/js/357.3c34368e.chunk.js",
     "static/media/VectorWhite.png": "/serhii-app/static/media/VectorWhite.1a1281210f1b5ef6ab56.png",
@@ -12,15 +12,15 @@
     "static/media/video-logo.png": "/serhii-app/static/media/video-logo.ff2e6a506fc396162d4d.png",
     "index.html": "/serhii-app/index.html",
     "main.9308bc6f.css.map": "/serhii-app/static/css/main.9308bc6f.css.map",
-    "main.7d76cc89.js.map": "/serhii-app/static/js/main.7d76cc89.js.map",
+    "main.a40a0845.js.map": "/serhii-app/static/js/main.a40a0845.js.map",
     "873.b0e6fc68.chunk.css.map": "/serhii-app/static/css/873.b0e6fc68.chunk.css.map",
     "873.440b51b2.chunk.js.map": "/serhii-app/static/js/873.440b51b2.chunk.js.map",
-    "189.b33d8bed.chunk.js.map": "/serhii-app/static/js/189.b33d8bed.chunk.js.map",
+    "189.f405a5d0.chunk.js.map": "/serhii-app/static/js/189.f405a5d0.chunk.js.map",
     "805.9e7446fa.chunk.js.map": "/serhii-app/static/js/805.9e7446fa.chunk.js.map",
     "357.3c34368e.chunk.js.map": "/serhii-app/static/js/357.3c34368e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9308bc6f.css",
-    "static/js/main.7d76cc89.js"
+    "static/js/main.a40a0845.js"
   ]
 }
