@@ -1,26 +1,24 @@
 {
   "files": {
     "main.css": "/serhii-app/static/css/main.9308bc6f.css",
-    "main.js": "/serhii-app/static/js/main.a40a0845.js",
-    "static/css/873.b0e6fc68.chunk.css": "/serhii-app/static/css/873.b0e6fc68.chunk.css",
-    "static/js/873.440b51b2.chunk.js": "/serhii-app/static/js/873.440b51b2.chunk.js",
-    "static/js/189.f405a5d0.chunk.js": "/serhii-app/static/js/189.f405a5d0.chunk.js",
+    "main.js": "/serhii-app/static/js/main.4a2f1bcb.js",
+    "static/js/211.2b2426c9.chunk.js": "/serhii-app/static/js/211.2b2426c9.chunk.js",
+    "static/js/274.9bac2f85.chunk.js": "/serhii-app/static/js/274.9bac2f85.chunk.js",
     "static/js/805.9e7446fa.chunk.js": "/serhii-app/static/js/805.9e7446fa.chunk.js",
-    "static/js/357.3c34368e.chunk.js": "/serhii-app/static/js/357.3c34368e.chunk.js",
+    "static/css/505.7d14f645.chunk.css": "/serhii-app/static/css/505.7d14f645.chunk.css",
     "static/media/VectorWhite.png": "/serhii-app/static/media/VectorWhite.1a1281210f1b5ef6ab56.png",
     "static/media/hero.jpg": "/serhii-app/static/media/hero.7e7450b4e8336123458b.jpg",
     "static/media/video-logo.png": "/serhii-app/static/media/video-logo.ff2e6a506fc396162d4d.png",
     "index.html": "/serhii-app/index.html",
     "main.9308bc6f.css.map": "/serhii-app/static/css/main.9308bc6f.css.map",
-    "main.a40a0845.js.map": "/serhii-app/static/js/main.a40a0845.js.map",
-    "873.b0e6fc68.chunk.css.map": "/serhii-app/static/css/873.b0e6fc68.chunk.css.map",
-    "873.440b51b2.chunk.js.map": "/serhii-app/static/js/873.440b51b2.chunk.js.map",
-    "189.f405a5d0.chunk.js.map": "/serhii-app/static/js/189.f405a5d0.chunk.js.map",
+    "main.4a2f1bcb.js.map": "/serhii-app/static/js/main.4a2f1bcb.js.map",
+    "211.2b2426c9.chunk.js.map": "/serhii-app/static/js/211.2b2426c9.chunk.js.map",
+    "274.9bac2f85.chunk.js.map": "/serhii-app/static/js/274.9bac2f85.chunk.js.map",
     "805.9e7446fa.chunk.js.map": "/serhii-app/static/js/805.9e7446fa.chunk.js.map",
-    "357.3c34368e.chunk.js.map": "/serhii-app/static/js/357.3c34368e.chunk.js.map"
+    "505.7d14f645.chunk.css.map": "/serhii-app/static/css/505.7d14f645.chunk.css.map"
   },
   "entrypoints": [
     "static/css/main.9308bc6f.css",
-    "static/js/main.a40a0845.js"
+    "static/js/main.4a2f1bcb.js"
   ]
 }
