@@ -15,7 +15,7 @@ import Modal from '@mui/material/Modal';
 
 export const CatalogList = () => {
     const [open, setOpen] = React.useState(false);
-    const handleOpen = () => setOpen(true);
+    const handleOpen = ({id}) => setOpen(true);
     const handleClose = () => setOpen(false);
 
     return (
@@ -29,7 +29,8 @@ export const CatalogList = () => {
                     </Title>
                     <List >
                             <Item onClick={handleOpen}>
-                                <Video
+                            <Video
+                                    id={2}
                                     src="https://www.youtube.com/embed/FJNZTOmp4EM"
                                     title="YouTube video player"
                                     frameborder="0"

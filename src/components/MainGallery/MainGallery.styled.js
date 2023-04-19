@@ -71,6 +71,7 @@ export const WrapLink = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 `
 
 export const WrapSwiper = styled.section`

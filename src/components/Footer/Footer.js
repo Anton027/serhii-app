@@ -8,7 +8,6 @@ export const Footer = () => {
         <>
             <FooterSect>
                 <Container>
-    
                     <Wrapper>
                         <WrapAddres>
                             <LogoLink to="/">
@@ -21,15 +20,15 @@ export const Footer = () => {
                                             Ukraine, 30100 Netishyn
                                         </Link>
                                     </Item>
-                        
+
                                     <Item >
-                                        <Link  to="mailto:info@devstudio.com">
+                                        <Link  to="mailto:info@devstudio.com" >
                                             info@devstudio.com
                                         </Link>
                                     </Item>
-                        
+            
                                     <Item >
-                                        <Link  to="tel:+380961111111">
+                                        <Link  to="tel:+380961111111" >
                                             +38 096 111 11 11
                                         </Link>
                                     </Item>
