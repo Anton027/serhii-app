@@ -14,7 +14,7 @@ export const SwiperCenter = () => {
             spaceBetween={20}
             slidesPerView={3}
             autoplay={{ delay: 3000 }}
-            
+            centeredSlides={true}
             // onSwiper={(swiper) => console.log(swiper)}
             onClick={
                 () => {

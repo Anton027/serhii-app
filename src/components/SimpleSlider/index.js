@@ -1,1 +1,0 @@
-export { SliderResponsive } from "./SimpleSlider"
